@@ -1,0 +1,526 @@
+{
+  "team": "",
+  "assignment": "corte-preguntas-1",
+  "questions": [
+    {
+      "id": "tue1-tf-1",
+      "reading": "tuesday-week-1",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 1",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue1-tf-2",
+      "reading": "tuesday-week-1",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 1",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue1-tf-3",
+      "reading": "tuesday-week-1",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 1",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue1-tf-4",
+      "reading": "tuesday-week-1",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 1",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue1-tf-5",
+      "reading": "tuesday-week-1",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 1",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue1-mc-1",
+      "reading": "tuesday-week-1",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 1",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue1-mc-2",
+      "reading": "tuesday-week-1",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 1",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue1-mc-3",
+      "reading": "tuesday-week-1",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 1",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue1-mc-4",
+      "reading": "tuesday-week-1",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 1",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue1-mc-5",
+      "reading": "tuesday-week-1",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 1",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu1-tf-1",
+      "reading": "thursday-week-1",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 1",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu1-tf-2",
+      "reading": "thursday-week-1",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 1",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu1-tf-3",
+      "reading": "thursday-week-1",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 1",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu1-tf-4",
+      "reading": "thursday-week-1",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 1",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu1-tf-5",
+      "reading": "thursday-week-1",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 1",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu1-mc-1",
+      "reading": "thursday-week-1",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 1",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu1-mc-2",
+      "reading": "thursday-week-1",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 1",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu1-mc-3",
+      "reading": "thursday-week-1",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 1",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu1-mc-4",
+      "reading": "thursday-week-1",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 1",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu1-mc-5",
+      "reading": "thursday-week-1",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 1",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue2-tf-1",
+      "reading": "tuesday-week-2",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 2",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue2-tf-2",
+      "reading": "tuesday-week-2",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 2",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue2-tf-3",
+      "reading": "tuesday-week-2",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 2",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue2-tf-4",
+      "reading": "tuesday-week-2",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 2",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue2-tf-5",
+      "reading": "tuesday-week-2",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 2",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue2-mc-1",
+      "reading": "tuesday-week-2",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 2",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue2-mc-2",
+      "reading": "tuesday-week-2",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 2",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue2-mc-3",
+      "reading": "tuesday-week-2",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 2",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue2-mc-4",
+      "reading": "tuesday-week-2",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 2",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "tue2-mc-5",
+      "reading": "tuesday-week-2",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 2",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu2-tf-1",
+      "reading": "thursday-week-2",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 2",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu2-tf-2",
+      "reading": "thursday-week-2",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 2",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu2-tf-3",
+      "reading": "thursday-week-2",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 2",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu2-tf-4",
+      "reading": "thursday-week-2",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 2",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu2-tf-5",
+      "reading": "thursday-week-2",
+      "type": "true_false",
+      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 2",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu2-mc-1",
+      "reading": "thursday-week-2",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 2",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu2-mc-2",
+      "reading": "thursday-week-2",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 2",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu2-mc-3",
+      "reading": "thursday-week-2",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 2",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu2-mc-4",
+      "reading": "thursday-week-2",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 2",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    },
+    {
+      "id": "thu2-mc-5",
+      "reading": "thursday-week-2",
+      "type": "multiple_choice",
+      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 2",
+      "options": [
+        "Opción A (edítenla)",
+        "Opción B (edítenla)",
+        "Opción C (edítenla)",
+        "Opción D (edítenla)"
+      ],
+      "correct_option": "Opción A (edítenla)",
+      "difficulty_level": 1
+    }
+  ]
+}
