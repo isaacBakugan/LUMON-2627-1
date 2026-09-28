@@ -5,7 +5,7 @@
 import matplotlib.pyplot as plt
 
 def leer_csv(ruta):
-
+    """Lee un CSV a mano: devuelve una lista de filas (listas de floats)."""
     with open(ruta, "r", encoding="utf-8-sig") as archivo:
         lineas = archivo.readlines()
 
@@ -18,11 +18,12 @@ def leer_csv(ruta):
         try:
             valores = [float(p) for p in partes]
         except ValueError:
-            continue  
+            continue 
         filas.append(valores)
 
     return filas
- 
+
+
 def carpeta_del_script():
     """Devuelve la carpeta donde vive este archivo .py"""
     ruta = __file__
@@ -33,10 +34,6 @@ def carpeta_del_script():
 
 
 def abrir_csv(entrada):
-    """
-    Intenta leer el CSV tal como se escribio. Si no lo encuentra,
-    lo busca en la carpeta assets/ que está junto a este script
-    """
     try:
         return leer_csv(entrada)
     except FileNotFoundError:
@@ -48,7 +45,7 @@ def abrir_csv(entrada):
         return leer_csv(carpeta_del_script() + "/assets/" + nombre)
     except FileNotFoundError:
         return None
-    
+
 def suma_ponderada(entradas, pesos, sesgo):
     """z = sesgo + w1*x1 + w2*x2 + ... + wn*xn"""
     total = sesgo
@@ -57,27 +54,30 @@ def suma_ponderada(entradas, pesos, sesgo):
     return total
 
 
-def escalon(z):
-    """Funcion escalon (Heaviside). Rango de salida: {0, 1}"""
-    return 1.0 if z >= 0 else 0.0
+UMBRAL = 0.5
 
 
-def signo(z):
-    """Funcion signo (bipolar). Rango de salida: {-1, 1}"""
-    return 1.0 if z >= 0 else -1.0
+def sigmoide(z):
+    """Sigmoide: 1 / (1 + e^-z). Rango de salida: (0, 1)"""
+    if z < -700:  
+        return 0.0
+    return 1 / (1 + 2.718281828459045 ** (-z))
+
+
+def relu(z):
+    """ReLU: max(0, z). Rango de salida: [0, infinito)"""
+    return z if z > 0 else 0.0
 
 
 FUNCIONES_ACTIVACION = {
-    "1": ("Heaviside (salida 0 / 1)", escalon),
-    "2": ("Bipolar (salida -1 / 1)", signo),
+    "1": ("Sigmoide", sigmoide),
+    "2": ("ReLU", relu),
 }
 
 
-def clase_objetivo(y, funcion):
-    pertenece_a_clase_1 = y >= 0.5
-    if funcion is escalon:
-        return 1.0 if pertenece_a_clase_1 else 0.0
-    return 1.0 if pertenece_a_clase_1 else -1.0
+def clase_de(valor):
+    """Convierte un valor a clase 0/1: clase 1 si valor >= UMBRAL."""
+    return 1.0 if valor >= UMBRAL else 0.0
 
 def pedir_float(mensaje):
     while True:
@@ -115,43 +115,73 @@ def graficar_datos_crudos(filas, n_entradas):
     y = [fila[-1] for fila in filas]
 
     plt.figure(figsize=(5, 5))
-    plt.scatter(x1, x2, c=y, cmap="bwr", edgecolors="k")
+    plt.scatter(x1, x2, c=y, cmap="bwr", s=45, alpha=0.8,
+                edgecolors="white", linewidths=0.6)
+    plt.colorbar(label="Valor esperado")
     plt.xlabel("x1")
     plt.ylabel("x2" if n_entradas > 1 else "")
-    titulo = "Datos originales (color = valor esperado)"
+    plt.grid(True, alpha=0.25)
+    titulo = "Datos originales"
     if n_entradas > 2:
         titulo += "\n(solo se muestran las primeras 2 dimensiones)"
     plt.title(titulo)
+    plt.tight_layout()
     plt.show()
 
 
-def graficar_resultados(filas, esperados, predichos, n_entradas):
+def dispersion_por_grupos(x1, x2, grupos, estilos):
+    """Un scatter por grupo, para que cada uno tenga su entrada en la leyenda."""
+    for valor, (color, etiqueta) in estilos.items():
+        gx = [a for a, g in zip(x1, grupos) if g == valor]
+        gy = [b for b, g in zip(x2, grupos) if g == valor]
+        plt.scatter(gx, gy, c=color, label=etiqueta, s=45, alpha=0.8,
+                    edgecolors="white", linewidths=0.6)
+
+
+def dibujar_frontera(sesgo, pesos, z_umbral, limites):
+    """Dibuja la recta donde sesgo + w1*x1 + w2*x2 = z_umbral (solo 2 entradas)."""
+    xmin, xmax, ymin, ymax = limites
+    w1, w2 = pesos
+    if w2 != 0:
+        y_a = (z_umbral - sesgo - w1 * xmin) / w2
+        y_b = (z_umbral - sesgo - w1 * xmax) / w2
+        plt.plot([xmin, xmax], [y_a, y_b], "k--", linewidth=1.3, label="Frontera")
+    elif w1 != 0:
+        x_c = (z_umbral - sesgo) / w1
+        plt.plot([x_c, x_c], [ymin, ymax], "k--", linewidth=1.3, label="Frontera")
+    plt.xlim(xmin, xmax)
+    plt.ylim(ymin, ymax)
+
+
+def graficar_resultados(filas, esperados, predichos, n_entradas,
+                        sesgo, pesos, z_umbral, aciertos):
     x1 = [fila[0] for fila in filas]
     x2 = [fila[1] if n_entradas > 1 else 0.0 for fila in filas]
+    margen = 0.1
+    limites = (min(x1) - margen, max(x1) + margen,
+               min(x2) - margen, max(x2) + margen)
 
-    colores_esperado = ["tab:blue" if e <= 0 else "tab:orange" for e in esperados]
-    colores_predicho = ["tab:blue" if p <= 0 else "tab:orange" for p in predichos]
-    colores_acierto = ["green" if e == p else "red" for e, p in zip(esperados, predichos)]
+    clases = {0.0: ("#3b6fb6", "Clase 0"), 1.0: ("#e08a1e", "Clase 1")}
+    coincidencia = ["ok" if e == p else "error" for e, p in zip(esperados, predichos)]
+    estilo_coinc = {"ok": ("#2e9e5b", "Coincide"), "error": ("#d64545", "No coincide")}
+    dibuja_frontera = n_entradas == 2
 
     plt.figure(figsize=(15, 5))
-
-    plt.subplot(1, 3, 1)
-    plt.scatter(x1, x2, c=colores_esperado, edgecolors="k")
-    plt.title("Valor esperado")
-    plt.xlabel("x1")
-    plt.ylabel("x2")
-
-    plt.subplot(1, 3, 2)
-    plt.scatter(x1, x2, c=colores_predicho, edgecolors="k")
-    plt.title("Valor predicho")
-    plt.xlabel("x1")
-    plt.ylabel("x2")
-
-    plt.subplot(1, 3, 3)
-    plt.scatter(x1, x2, c=colores_acierto, edgecolors="k")
-    plt.title("Coincidencias (verde) / Errores (rojo)")
-    plt.xlabel("x1")
-    plt.ylabel("x2")
+    paneles = [
+        ("Valor esperado", esperados, clases),
+        ("Valor predicho", predichos, clases),
+        (f"Coincidencias: {aciertos}/{len(filas)}", coincidencia, estilo_coinc),
+    ]
+    for i, (titulo, grupos, estilos) in enumerate(paneles, start=1):
+        plt.subplot(1, 3, i)
+        dispersion_por_grupos(x1, x2, grupos, estilos)
+        if dibuja_frontera:
+            dibujar_frontera(sesgo, pesos, z_umbral, limites)
+        plt.title(titulo)
+        plt.xlabel("x1")
+        plt.ylabel("x2")
+        plt.grid(True, alpha=0.25)
+        plt.legend(loc="best", fontsize=8)
 
     if n_entradas > 2:
         plt.suptitle("Solo se grafican las primeras 2 dimensiones de entrada")
@@ -159,10 +189,6 @@ def graficar_resultados(filas, esperados, predichos, n_entradas):
     plt.tight_layout()
     plt.show()
 
-
-# ---------------------------------------------------------------------------
-# 5. Programa principal
-# ---------------------------------------------------------------------------
 def main():
     print("=== Perceptron interactivo ===")
     ruta = input("Ruta del archivo CSV: ").strip()
@@ -196,8 +222,8 @@ def main():
             y_real = fila[-1]
 
             z = suma_ponderada(entradas, pesos, sesgo)
-            prediccion = funcion(z)
-            objetivo = clase_objetivo(y_real, funcion)
+            prediccion = clase_de(funcion(z))
+            objetivo = clase_de(y_real)
 
             esperados.append(objetivo)
             predichos.append(prediccion)
@@ -207,7 +233,10 @@ def main():
         porcentaje = 100 * aciertos / len(filas)
         print(f"\nAciertos: {aciertos}/{len(filas)} ({porcentaje:.1f}%)")
 
-        graficar_resultados(filas, esperados, predichos, n_entradas)
+        # Con sigmoide la clase 1 empieza en z = 0; con ReLU, en z = UMBRAL
+        z_umbral = 0.0 if funcion is sigmoide else UMBRAL
+        graficar_resultados(filas, esperados, predichos, n_entradas,
+                            sesgo, pesos, z_umbral, aciertos)
 
         respuesta = input("\n¿Probar con otros pesos? (s/n): ").strip().lower()
         continuar = respuesta == "s"
