@@ -5,7 +5,6 @@
 import matplotlib.pyplot as plt
 
 def leer_csv(ruta):
-    """Lee un CSV a mano: devuelve una lista de filas (listas de floats)."""
     with open(ruta, "r", encoding="utf-8-sig") as archivo:
         lineas = archivo.readlines()
 
@@ -130,7 +129,6 @@ def graficar_datos_crudos(filas, n_entradas):
 
 
 def dispersion_por_grupos(x1, x2, grupos, estilos):
-    """Un scatter por grupo, para que cada uno tenga su entrada en la leyenda."""
     for valor, (color, etiqueta) in estilos.items():
         gx = [a for a, g in zip(x1, grupos) if g == valor]
         gy = [b for b, g in zip(x2, grupos) if g == valor]
@@ -139,7 +137,6 @@ def dispersion_por_grupos(x1, x2, grupos, estilos):
 
 
 def dibujar_frontera(sesgo, pesos, z_umbral, limites):
-    """Dibuja la recta donde sesgo + w1*x1 + w2*x2 = z_umbral (solo 2 entradas)."""
     xmin, xmax, ymin, ymax = limites
     w1, w2 = pesos
     if w2 != 0:
