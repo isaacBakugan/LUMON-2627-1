@@ -209,7 +209,7 @@ def main():
 
         graficar_resultados(filas, esperados, predichos, n_entradas)
 
-        respuesta = input("\n¿Deseas probar con otros pesos? (s/n): ").strip().lower()
+        respuesta = input("\n¿Probar con otros pesos? (s/n): ").strip().lower()
         continuar = respuesta == "s"
 
     print("Fin")
