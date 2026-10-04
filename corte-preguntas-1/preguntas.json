@@ -136,55 +136,55 @@
       "id": "thu1-tf-1",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 1",
+      "statement": "La función de activación ReLU siempre permite que la neurona aprenda, sin importar qué valor reciba",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 2
     },
     {
       "id": "thu1-tf-2",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 1",
+      "statement": "En una red neuronal feedforward, la información solo viaja desde la entrada hasta la salida",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 2
     },
     {
       "id": "thu1-tf-3",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 1",
+      "statement": "El algoritmo de backpropagation ajusta directamente los pesos de la red neuronal",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
+      "correct_option": "Falso",
       "difficulty_level": 1
     },
     {
       "id": "thu1-tf-4",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 1",
+      "statement": "El Teorema de Aproximación Universal dice que una sola capa oculta lo suficientemente grande puede aproximar casi cualquier función continua",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 2
     },
     {
       "id": "thu1-tf-5",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 1",
+      "statement": "En el forward propagation, cada neurona realiza una suma ponderada de las entradas que recibe y le aplica una función de activación antes de enviar el resultado a la siguiente capa",
       "options": [
         "Verdadero",
         "Falso"
