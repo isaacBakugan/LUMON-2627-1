@@ -6,7 +6,7 @@
       "id": "tue1-tf-1",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 1",
+      "statement": "El aprendizaje automático es una forma de estadística aplicada",
       "options": [
         "Verdadero",
         "Falso"
@@ -18,7 +18,7 @@
       "id": "tue1-tf-2",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 1",
+      "statement": "Los Hiperparámetro son configuraciones que controlan el comportamiento del propio algoritmo de aprendizaje",
       "options": [
         "Verdadero",
         "Falso"
@@ -30,19 +30,19 @@
       "id": "tue1-tf-3",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 1",
+      "statement": "El error de entrenamiento se calcula utilizando un conjunto de datos nuevos que el modelo nunca vio durante el proceso de aprendizaje",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 2
     },
     {
       "id": "tue1-tf-4",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 1",
+      "statement": "La regresión lineal se utiliza principalmente para predecir valores numéricos continuos",
       "options": [
         "Verdadero",
         "Falso"
@@ -54,83 +54,83 @@
       "id": "tue1-tf-5",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 1",
+      "statement": "Un modelo muy complejo tiende a presentar un sesgo alto y una varianza baja",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
+      "correct_option": "Falso",
       "difficulty_level": 1
     },
     {
       "id": "tue1-mc-1",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 1",
+      "statement": "Cuáles son los 3 componentes principales de la definición *Aprendizaje* para una computadora?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Experiencia, Desempeño, Poder",
+        "Medida, Experiencia, Intiución",
+        "Experiencia, Tarea, Desempeño",
+        "Tarea, Regresión, Desempeño"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Experiencia, Tarea, Desempeño",
+      "difficulty_level": 3
     },
     {
       "id": "tue1-mc-2",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 1",
+      "statement": "Que significa el Overfitting?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "El error de prueba es mucho mayor que el error de entrenamiento",
+        "El modelo no logra un error suficientemente bajo en el entrenamiento",
+        "El modelo no logra un error suficientemente alto en el entrenamiento",
+        "El error de prueba es mucho menor que el error de entrenamiento"
       ],
-      "correct_option": "Opción A (edítenla)",
+      "correct_option": "El error de prueba es mucho mayor que el error de entrenamiento",
       "difficulty_level": 1
     },
     {
       "id": "tue1-mc-3",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 1",
+      "statement": "Cuando ocurre Underfitting?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Cuando el modelo falla al predecir datos nuevos",
+        "Cuando el modelo es demasiado simple para capturar la estructura subyacente de los datos",
+        "Cuando el modelo memoriza los datos de entrenamiento",
+        "Cuando el modelo falla debido al ruido"
       ],
-      "correct_option": "Opción A (edítenla)",
+      "correct_option": "Cuando el modelo es demasiado simple para capturar la estructura subyacente de los datos",
       "difficulty_level": 1
     },
     {
       "id": "tue1-mc-4",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 1",
+      "statement": "Cuál de los siguientes elementos son componentes básicos para construir un algoritmo de aprendizaje automático",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "La especificación del dataset",
+        "La función de costo",
+        "El algoritmo de optimización",
+        "Todas las anteriores"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Todas las anteriores",
+      "difficulty_level": 2
     },
     {
       "id": "tue1-mc-5",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 1",
+      "statement": "Por qué los hiperparámetros de un modelo de aprendizaje automático no deben optimizarse directamente sobre el conjunto de entrenamiento",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Causaría underfitting, obligando al modelo a elegir la estructura más simple posible",
+        "Alteraría los pesos del modelo impidiendo que el algoritmo de optimización converja",
+        "Causaría overfitting, seleccionando hiperparámetros que memorizan el ruido del entrenamiento y no generalizan a datos nuevos",
+        "Ninguna de las anteriores"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Causaría overfitting, seleccionando hiperparámetros que memorizan el ruido del entrenamiento y no generalizan a datos nuevos",
+      "difficulty_level": 3
     },
     {
       "id": "thu1-tf-1",
