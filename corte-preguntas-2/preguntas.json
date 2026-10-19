@@ -6,66 +6,66 @@
       "id": "tue3-tf-1",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 3",
+      "statement": "La fase en la que cada activación lineal atraviesa una función no lineal (como ReLU) dentro de una capa convolucional típica, a menudo se denomina etapa detectora.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "This stage is sometimes called the detector stage."
     },
     {
       "id": "tue3-tf-2",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 3",
+      "statement": "A través de la correlación inversa se ha descubierto que los pesos de gran parte de las células V1 pueden ser descritos utilizando funciones de Gabor.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 6,
+      "source_quote": "Reverse correlation shows us that most V1 cells have weights that are described by Gabor functions."
     },
     {
       "id": "tue3-tf-3",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 3",
+      "statement": "La convolución presenta de forma natural equivarianza frente a las rotaciones y los cambios de escala en una imagen.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "Convolution is not naturally equivariant to some other transformations, such as changes in the scale or rotation of an image."
     },
     {
       "id": "tue3-tf-4",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 3",
+      "statement": "Varias librerías de machine learning llevan a cabo la correlación cruzada sin invertir el kernel, aunque la denominan convolución.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "Many machine learning libraries implement cross-correlation but call it convolution."
     },
     {
       "id": "tue3-tf-5",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 3",
+      "statement": "Durante una convolución válida, asumiendo que la imagen posee un ancho m y el kernel un ancho k, la salida mantiene el ancho m original de la entrada.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "If the input image has width m and the kernel has width k, the output will be of width m − k + 1."
     },
     {
       "id": "tue3-mc-1",
@@ -286,66 +286,66 @@
       "id": "tue4-tf-1",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 4",
+      "statement": "El decodificador aplica una máscara en su auto-atención con el fin de asegurar que la predicción en la posición i se base exclusivamente en las salidas ya conocidas para las posiciones inferiores a i.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "ensures that the predictions for position i can depend only on the known outputs at positions less than i."
     },
     {
       "id": "tue4-tf-2",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 4",
+      "statement": "El modelo Transformer se apoya exclusivamente en mecanismos de atención, omitiendo totalmente el uso de convoluciones y recurrencia.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "based solely on attention mechanisms, dispensing with recurrence and convolutions entirely"
     },
     {
       "id": "tue4-tf-3",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 4",
+      "statement": "De acuerdo con los creadores, si la longitud de la secuencia n resulta inferior a la dimensión de representación d, las capas de auto-atención operan de forma más lenta que las recurrentes.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "self-attention layers are faster than recurrent layers when the sequence length n is smaller than the representation dimensionality d"
     },
     {
       "id": "tue4-tf-4",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 4",
+      "statement": "El codificador y el decodificador dentro de la arquitectura Transformer se componen de un conjunto apilado de 12 capas idénticas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 2,
+      "source_quote": "The encoder is composed of a stack of N = 6 identical layers."
     },
     {
       "id": "tue4-tf-5",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 4",
+      "statement": "La decisión de los autores de utilizar codificación posicional aprendida se debió a que produjo resultados marcadamente mejores que la variante sinusoidal.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "We also experimented with using learned positional embeddings [8] instead, and found that the two versions produced nearly identical results"
     },
     {
       "id": "tue4-mc-1",
@@ -426,66 +426,66 @@
       "id": "thu4-tf-1",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 4",
+      "statement": "Ser racional implica ser omnisciente: es indispensable que un agente racional sepa por adelantado cuál será el resultado verdadero de las acciones que ejecute.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 2,
+      "source_quote": "An omniscient agent knows the actual outcome of its actions and can act accordingly; but omniscience is impossible in reality."
     },
     {
       "id": "thu4-tf-2",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 4",
+      "statement": "Dado que un agente reflejo simple toma decisiones fundamentadas en su historial completo de percepciones, se desenvuelve de manera óptima en entornos de observabilidad parcial.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "These agents select actions on the basis of the current percept, ignoring the rest of the percept history."
     },
     {
       "id": "thu4-tf-3",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 4",
+      "statement": "Un agente racional tiene que seleccionar aquella acción que previsiblemente maximizará su rendimiento, basándose en el conocimiento integrado y sus percepciones.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "For each possible percept sequence, a rational agent should select an action that is expected to maximize its performance measure"
     },
     {
       "id": "thu4-tf-4",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 4",
+      "statement": "Debido a que cualquier heurística consistente resulta ser también admisible, se considera que la consistencia representa una exigencia más rigurosa que la admisibilidad.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "every consistent heuristic is also admissible. Consistency is therefore a stricter requirement than admissibility"
     },
     {
       "id": "thu4-tf-5",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 4",
+      "statement": "Dentro de un entorno de tarea episódico, las acciones ejecutadas en episodios previos no tienen influencia alguna sobre el episodio que sigue.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "Crucially, the next episode does not depend on the actions taken in previous episodes."
     },
     {
       "id": "thu4-mc-1",
