@@ -1,566 +1,566 @@
 {
-  "team": "",
+  "team": "LUMON-2627-1",
   "assignment": "corte-preguntas-4",
   "questions": [
     {
       "id": "tue9-tf-1",
       "reading": "tuesday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 9",
+      "statement": "Un modelo de caracteres n-grama puede representarse como una cadena de Márkov de orden n menos uno.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "An n-gram model is defined as a Markov chain of order n − 1."
     },
     {
       "id": "tue9-tf-2",
       "reading": "tuesday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 9",
+      "statement": "La identificación de idioma puede resolverse usando modelos de trigramas de caracteres construidos a partir de corpus por idioma.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "One approach to language identification is to first build a trigram character model of each candidate language"
     },
     {
       "id": "tue9-tf-3",
       "reading": "tuesday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 9",
+      "statement": "El suavizado de Laplace supera sistemáticamente a los modelos backoff y es presentado como la alternativa más eficaz.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "A better approach is a backoff model, in which we start by estimating n-gram counts"
     },
     {
       "id": "tue9-tf-4",
       "reading": "tuesday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 9",
+      "statement": "La validación cruzada puede separar datos de entrenamiento y validación para escoger un modelo de lenguaje.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "We can evaluate a model with cross-validation."
     },
     {
       "id": "tue9-tf-5",
       "reading": "tuesday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 9",
+      "statement": "Según el capítulo, la clasificación de textos no puede utilizar modelos de aprendizaje supervisado.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "We can treat spam detection as a problem in supervised learning."
     },
     {
       "id": "tue9-mc-1",
       "reading": "tuesday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 9",
+      "statement": "En el ejemplo de lenguaje natural «He saw her duck», ¿qué fenómeno dificulta asignar una única interpretación?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "La invariancia matemática del significado",
+        "La ambigüedad de las expresiones en contexto",
+        "La independencia del contexto",
+        "La ausencia de palabras polisémicas"
       ],
-      "correct_option": "Opción A (edítenla)",
+      "correct_option": "La ambigüedad de las expresiones en contexto",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "Natural languages are also ambiguous."
     },
     {
       "id": "tue9-mc-2",
       "reading": "tuesday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 9",
+      "statement": "¿Qué tres órdenes de modelo combina el suavizado por interpolación lineal descrito en el capítulo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Pentagramas, trigramas y caracteres aislados",
+        "Trigramas, bigramas y unigramas",
+        "Modelos sintácticos, semánticos y morfológicos",
+        "Únicamente modelos unigramas de palabras"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Trigramas, bigramas y unigramas",
+      "difficulty_level": 4,
+      "source_quote": "Linear interpolation smoothing is a backoff model that combines trigram, bigram, and unigram models"
     },
     {
       "id": "tue9-mc-3",
       "reading": "tuesday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 9",
+      "statement": "Para calcular una clasificación BM25, ¿qué tres factores se combinan para puntuar documentos de una consulta?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Frecuencia del término, frecuencia inversa de documento y longitud del documento",
+        "Cantidad de enlaces salientes, edad y tipografía",
+        "Longitud de la consulta, posición en pantalla y fecha",
+        "Perplejidad, clases latentes y distancia euclídea"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Frecuencia del término, frecuencia inversa de documento y longitud del documento",
+      "difficulty_level": 8,
+      "source_quote": "The BM25 function takes all three of these into account."
     },
     {
       "id": "tue9-mc-4",
       "reading": "tuesday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 9",
+      "statement": "En el ejemplo con 30 resultados relevantes, 10 no relevantes y 20 relevantes omitidos, ¿cuál es el valor F1 aproximado?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "0,50",
+        "0,67",
+        "0,60",
+        "0,75"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "0,67",
+      "difficulty_level": 9,
+      "source_quote": "A summary of both measures is the F1 score, a single number that is the harmonic mean of precision and recall"
     },
     {
       "id": "tue9-mc-5",
       "reading": "tuesday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 9",
+      "statement": "¿Qué ventaja del CRF motiva preferir un modelo discriminativo en extracción de información frente a un HMM generativo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Generar texto completo sin observar palabras",
+        "Imponer independencia total de atributos entre posiciones",
+        "Calcular frecuencias de palabras sin variables ocultas",
+        "Modelar directamente probabilidades de estados ocultos condicionadas al texto observado"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Modelar directamente probabilidades de estados ocultos condicionadas al texto observado",
+      "difficulty_level": 7,
+      "source_quote": "All we need in order to understand a text is a discriminative model, one that models the conditional probability of the hidden attributes given the observations (the text)."
     },
     {
       "id": "thu9-tf-1",
       "reading": "thursday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 9",
+      "statement": "Un mapa de influencia puede señalar áreas seguras y regiones que conviene evitar en el juego.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "An influence map allows the AI to see which areas of the game are safe"
     },
     {
       "id": "thu9-tf-2",
       "reading": "thursday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 9",
+      "statement": "Al atacar una frontera enemiga, el criterio descrito consiste siempre en elegir el punto de mayor seguridad del enemigo.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "The location with the smallest security value is often a good place to launch an attack."
     },
     {
       "id": "thu9-tf-3",
       "reading": "thursday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 9",
+      "statement": "El mapa de influencia permite conocer con certeza las unidades enemigas que el jugador todavía no puede ver.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "If we do a tactical analysis on the units we can see, then we run the risk of underestimating the enemy forces."
     },
     {
       "id": "thu9-tf-4",
       "reading": "thursday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 9",
+      "statement": "Los mapas de influencia también se pueden emplear para guiar desplazamientos y planear ataques.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "The influence map can be used to plan attack locations or to guide movement."
     },
     {
       "id": "thu9-tf-5",
       "reading": "thursday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 9",
+      "statement": "Un análisis táctico de propiedades dinámicas, como sombras variables, puede calcularse siempre una sola vez sin actualización posterior.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "We can distinguish different types of tactical analyses based on when and how they need to be updated."
     },
     {
       "id": "thu9-mc-1",
       "reading": "thursday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 9",
+      "statement": "¿Qué nombre recibe la situación donde los jugadores no conocen todas las unidades enemigas en el mapa?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Exploración codiciosa",
+        "Niebla de guerra (fog-of-war)",
+        "Mapeo completo de seguridad",
+        "Rango de influencia ilimitado"
       ],
-      "correct_option": "Opción A (edítenla)",
+      "correct_option": "Niebla de guerra (fog-of-war)",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "This is often called “fog-of-war” (but isn’t the same thing as fog-of-war in military-speak)."
     },
     {
       "id": "thu9-mc-2",
       "reading": "thursday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 9",
+      "statement": "¿Qué busca detectar un análisis de mayor sofisticación al examinar varios sectores débiles contiguos de la defensa enemiga?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Encontrar secuencias conectadas de puntos débiles que indiquen una zona vulnerable",
+        "Elegir solamente la casilla de mayor distancia geométrica",
+        "Eliminar las fronteras que ya fueron exploradas en la partida",
+        "Suponer que toda región con cobertura parcial es invulnerable"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Encontrar secuencias conectadas de puntos débiles que indiquen una zona vulnerable",
+      "difficulty_level": 4,
+      "source_quote": "A more sophisticated test might look for a connected sequence of such weak points to indicate a weak area in the enemy defense."
     },
     {
       "id": "thu9-mc-3",
       "reading": "thursday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 9",
+      "statement": "¿Qué mecanismo alternativo plantean los autores para dar distinta importancia a seguridad, visibilidad y proximidad al elegir una posición?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Eligiendo aleatoriamente uno de los tres mapas",
+        "Usando solo el promedio temporal de las posiciones",
+        "Descartando la visibilidad y sustituyéndola por distancia total",
+        "Usar una suma ponderada de los valores de cada análisis"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Usar una suma ponderada de los valores de cada análisis",
+      "difficulty_level": 8,
+      "source_quote": "There may be better ways to put them together, using a weighted sum, for example"
     },
     {
       "id": "thu9-mc-4",
       "reading": "thursday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 9",
+      "statement": "En el algoritmo de inundación táctica inspirado en Dijkstra, ¿por qué puede ser necesario reabrir una ubicación ya procesada?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque una ruta posterior puede asignarle una intensidad de influencia mayor",
+        "Porque todos los nodos se visitan siempre exactamente dos veces",
+        "Porque las conexiones del mapa cambian obligatoriamente en cada iteración",
+        "Porque Dijkstra requiere borrar por completo la lista abierta al final de cada nodo"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Porque una ruta posterior puede asignarle una intensidad de influencia mayor",
+      "difficulty_level": 9,
+      "source_quote": "we cannot guarantee that an updating location will not be on the closed list, so we have to make allowances for removing it."
     },
     {
       "id": "thu9-mc-5",
       "reading": "thursday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 9",
+      "statement": "¿Por qué la convolución separable puede acelerar el cálculo de una influencia suavizada en una cuadrícula?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque elimina la propagación a posiciones vecinas",
+        "Porque requiere una copia completa por cada celda",
+        "Porque reemplaza una matriz bidimensional por pasadas con vectores vertical y horizontal",
+        "Porque deja de utilizar pesos al calcular las actualizaciones"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Porque reemplaza una matriz bidimensional por pasadas con vectores vertical y horizontal",
+      "difficulty_level": 7,
+      "source_quote": "the vertical and horizontal calculations are the same. We can separate them out into two steps:"
     },
     {
       "id": "tue10-tf-1",
       "reading": "tuesday-week-10",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 10",
+      "statement": "Los autómatas celulares unidimensionales del ejemplo calculan el nuevo color según la celda y sus dos vecinas inmediatas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "At every step there is then a definite rule that determines the color of a given cell from the color of that cell and its immediate left and right neighbors on the step before."
     },
     {
       "id": "tue10-tf-2",
       "reading": "tuesday-week-10",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 10",
+      "statement": "La regla 90 produce un patrón sin estructura reconocible, completamente aleatorio según las figuras del capítulo.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "each of these pieces is essentially just a smaller copy of the whole pattern"
     },
     {
       "id": "tue10-tf-3",
       "reading": "tuesday-week-10",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 10",
+      "statement": "La regla 30 demuestra que reglas e inicializaciones simples pueden producir resultados visualmente muy complejos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "even with simple underlying rules and simple initial conditions, it is possible to produce behavior of great complexity."
     },
     {
       "id": "tue10-tf-4",
       "reading": "tuesday-week-10",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 10",
+      "statement": "La regla 254 forma una región creciente de celdas negras cuando comienza con una sola celda negra.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "starting with a single black cell in the center this rule then leads to a simple growing pattern uniformly filled with black."
     },
     {
       "id": "tue10-tf-5",
       "reading": "tuesday-week-10",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 10",
+      "statement": "La regla 110 se define mediante una evolución que necesariamente se vuelve totalmente aleatoria y nunca genera repeticiones.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "one structure survives, and that structure interacts with the periodic stripes coming from the left to produce behavior that repeats every 240 steps."
     },
     {
       "id": "tue10-mc-1",
       "reading": "tuesday-week-10",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 10",
+      "statement": "En las figuras de Wolfram, ¿qué representa cada fila de celdas del autómata?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Un paso sucesivo de su evolución temporal",
+        "Una regla distinta seleccionada en cada momento",
+        "Una población de autómatas independientes",
+        "La distribución de probabilidades de transición"
       ],
-      "correct_option": "Opción A (edítenla)",
+      "correct_option": "Un paso sucesivo de su evolución temporal",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "with each row of cells corresponding to one step."
     },
     {
       "id": "tue10-mc-2",
       "reading": "tuesday-week-10",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 10",
+      "statement": "Para la regla 90, ¿qué combinación hace negra una celda en el siguiente paso?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Ambas vecinas eran negras simultáneamente",
+        "La celda central era necesariamente negra",
+        "Exactamente una de sus dos celdas vecinas era negra",
+        "La celda central y ambas vecinas eran blancas"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Exactamente una de sus dos celdas vecinas era negra",
+      "difficulty_level": 4,
+      "source_quote": "either its left neighbor or its right neighbor—but not both—were black on the step before."
     },
     {
       "id": "tue10-mc-3",
       "reading": "tuesday-week-10",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 10",
+      "statement": "¿Cuál es la característica visual de la regla 90 que la vincula con estructuras fractales?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Una superficie continua de negro sin variación",
+        "Secuencias independientes sin simetría ni escala",
+        "Triángulos anidados cuyas partes reproducen la forma del patrón global",
+        "Una única franja que cambia de color en cada generación"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Triángulos anidados cuyas partes reproducen la forma del patrón global",
+      "difficulty_level": 8,
+      "source_quote": "Patterns with nested structure of this kind are often called “fractal” or “self-similar”."
     },
     {
       "id": "tue10-mc-4",
       "reading": "tuesday-week-10",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 10",
+      "statement": "¿Qué diferencia central contrasta Wolfram entre los programas diseñados en ingeniería y los autómatas celulares explorados?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Ambos requieren instrucciones largas para obtener resultados complejos",
+        "En autómatas, reglas e inicio simples pueden producir complejidad sin diseñarla de antemano",
+        "Los autómatas solo producen patrones planeados por el diseñador",
+        "La complejidad solo surge cuando el estado inicial es aleatorio"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "En autómatas, reglas e inicio simples pueden producir complejidad sin diseñarla de antemano",
+      "difficulty_level": 9,
+      "source_quote": "the initial conditions can also be simple—consisting say of just a single black cell—and still the behavior that is produced can be highly complex."
     },
     {
       "id": "tue10-mc-5",
       "reading": "tuesday-week-10",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 10",
+      "statement": "En el seguimiento de la regla 110 mostrado por Wolfram, ¿qué sucede luego de unos 2780 pasos?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Se extinguen todas las celdas negras sin excepciones",
+        "La secuencia se convierte definitivamente en ruido blanco",
+        "Aparece un patrón uniforme de negro ininterrumpido",
+        "Sobrevive una estructura y emerge un comportamiento que se repite cada 240 pasos"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Sobrevive una estructura y emerge un comportamiento que se repite cada 240 pasos",
+      "difficulty_level": 7,
+      "source_quote": "the outcome is finally clear after about 2780 steps: one structure survives"
     },
     {
       "id": "tue11-tf-1",
       "reading": "tuesday-week-11",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 11",
+      "statement": "En el Juego de la Vida, cada casilla tiene ocho vecinas, incluyendo las cuatro diagonales.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "each cell of the checkerboard (assumed to be an infinite plane) has eight neighboring cells"
     },
     {
       "id": "tue11-tf-2",
       "reading": "tuesday-week-11",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 11",
+      "statement": "Una célula viva con cuatro vecinas vivas sobrevive obligatoriamente a la siguiente generación.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "Each counter with four or more neighbors dies (is removed) from overpopulation."
     },
     {
       "id": "tue11-tf-3",
       "reading": "tuesday-week-11",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 11",
+      "statement": "Los nacimientos y las muertes de una generación se aplican simultáneamente, no uno tras otro.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "It is important to understand that all births and deaths occur simultaneously."
     },
     {
       "id": "tue11-tf-4",
       "reading": "tuesday-week-11",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 11",
+      "statement": "Un blinker mantiene la misma orientación y forma en todos los pasos de su oscilación.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "It alternates between horizontal and vertical rows of three."
     },
     {
       "id": "tue11-tf-5",
       "reading": "tuesday-week-11",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 11",
+      "statement": "Gardner afirma en el texto de 1970 que Conway ya había demostrado la imposibilidad de crecimiento ilimitado para cualquier patrón finito.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "Conway conjectures that no pattern can grow without limit."
     },
     {
       "id": "tue11-mc-1",
       "reading": "tuesday-week-11",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 11",
+      "statement": "¿Cuántas vecinas vivas necesita exactamente una casilla vacía para que ocurra un nacimiento?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Tres vecinas vivas",
+        "Dos vecinas vivas",
+        "Cuatro vecinas vivas",
+        "Cinco vecinas vivas"
       ],
-      "correct_option": "Opción A (edítenla)",
+      "correct_option": "Tres vecinas vivas",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "Each empty cell adjacent to exactly three neighbors--no more, no fewer--is a birth cell."
     },
     {
       "id": "tue11-mc-2",
       "reading": "tuesday-week-11",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 11",
+      "statement": "¿Cuál de estos patrones se considera estable (still life) según los ejemplos de Gardner?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Un blinker horizontal de tres células",
+        "Una línea vertical de tres células",
+        "Un bloque cuadrado de dos por dos células",
+        "Un glider de cinco células"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Un bloque cuadrado de dos por dos células",
+      "difficulty_level": 4,
+      "source_quote": "Pattern d becomes a stable \"block\" (two-by-two square) on the second move."
     },
     {
       "id": "tue11-mc-3",
       "reading": "tuesday-week-11",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 11",
+      "statement": "Una célula viva tiene solo una vecina y una casilla vacía cercana tiene tres. ¿Qué ocurre en el mismo paso?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Ambas casillas quedan vacías al terminar el paso",
+        "La célula viva permanece por tener una vecina y no hay nacimiento",
+        "Primero nace la célula nueva, que evita la muerte de la original",
+        "La célula viva muere por aislamiento y la casilla vacía da lugar a un nacimiento"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "La célula viva muere por aislamiento y la casilla vacía da lugar a un nacimiento",
+      "difficulty_level": 8,
+      "source_quote": "Every counter with one neighbor or none dies from isolation."
     },
     {
       "id": "tue11-mc-4",
       "reading": "tuesday-week-11",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 11",
+      "statement": "¿Qué velocidad lleva el glider respecto a la llamada velocidad de la luz del Juego de la Vida?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Un medio de la velocidad de la luz vertical",
+        "La misma velocidad de la luz horizontal",
+        "Dos veces la velocidad máxima diagonal",
+        "Un cuarto de la velocidad de la luz en dirección diagonal"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Un cuarto de la velocidad de la luz en dirección diagonal",
+      "difficulty_level": 9,
+      "source_quote": "it glides across the field at a fourth the speed of light."
     },
     {
       "id": "tue11-mc-5",
       "reading": "tuesday-week-11",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 11",
+      "statement": "En el artículo de 1970, ¿qué demuestra una potencial «gun» respecto de la conjetura de Conway?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Que todo patrón finito acaba en un bloque estable",
+        "Que los nacimientos deben realizarse antes de las muertes",
+        "Que un patrón finito podría originar continuamente nuevas células y refutar el límite propuesto",
+        "Que los gliders no pueden propagarse fuera de un área fija"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Que un patrón finito podría originar continuamente nuevas células y refutar el límite propuesto",
+      "difficulty_level": 7,
+      "source_quote": "One way to disprove it would be to discover patterns that keep adding counters to the field: a \"gun\""
     }
   ]
 }
